@@ -1,28 +1,63 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
-    private Vector3 playerVelocity;
 
+    Vector2 moveDirection = Vector2.zero;
     private float currentSpeed;
     private float playerSpeed = 3.0f;
     private float runSpeed = 5.0f;
+
+    private Vector3 playerVelocity;
     private float jumpHeight = 0.5f;
     private float gravity = -9.81f;
+    private bool isGround;
+    private bool jumpPressed = false;
 
-    public bool isGround = true;
 
     //Input
-    private float forwardInput;
-    private float horizontalInput;
-    private bool jumpInput;
+    //private float forwardInput;
+    //private float horizontalInput;
+    //private bool jumpInput;
+
+    public DefaultAction playercontrols;
+    private InputAction Moving;
+    private InputAction Running;
+    private InputAction Jumping;
 
     //Ani
     private Animator animator;
+
+    private void Awake()
+    {
+        playercontrols = new DefaultAction();
+    }
+
+    private void OnEnable()
+    {
+        //playercontrols.Enable();
+
+        Moving = playercontrols.Player.Move;
+        Running = playercontrols.Player.Run;
+        Jumping = playercontrols.Player.Jump;
+
+        Moving.Enable();
+        Running.Enable();
+        Jumping.Enable();
+    }
+
+    private void OnDisable()    
+    {
+        //playercontrols.Disable();
+        Moving.Disable();
+        Running.Disable();
+        Jumping.Disable();
+    }
 
     void Start()
     {
@@ -33,29 +68,34 @@ public class PlayerController : MonoBehaviour
         controller.center = new Vector3(0, 1, 0);
 
         animator = GetComponent<Animator>();
-        
+
     }
 
-   
+
     void Update()
     {
+        //action
+        walk();
+        run();
+        jump();
+
+    }
+    void OnWalk() {
+        moveDirection = Moving.ReadValue<Vector2>();
+    }
+
+    void walk() {
+
         //Input
-        forwardInput = Input.GetAxis("Vertical");
-        horizontalInput = Input.GetAxis("Horizontal");
-        jumpInput = Input.GetButtonDown("Jump");
+        //forwardInput = Input.GetAxis("Vertical");
+        //horizontalInput = Input.GetAxis("Horizontal");
+        OnWalk();
 
-        //Check isGround
-        isGround = controller.isGrounded;
-        if(isGround && playerVelocity.y < 0)
-        {
-            playerVelocity.y = 0f;
-        }
+        //Vector3 move = new Vector3(forwardInput, 0, -horizontalInput);
+        Vector3 move = new Vector3(moveDirection.y, 0, -moveDirection.x);
+        controller.Move(move * Time.deltaTime * currentSpeed);
 
-        //walking
-        Vector3 move = new Vector3(forwardInput, 0, -horizontalInput);
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if(move!= Vector3.zero)
+        if (move != Vector3.zero)
         {
             animator.SetBool("walking", true);
             gameObject.transform.forward = move;
@@ -64,9 +104,12 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("walking", false);
         }
+    }
 
-        //running
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+    void run()
+    {
+        bool isShiftKey = Running.ReadValue<float>() > 0.1f;
+        if (isShiftKey)
         {
             animator.SetBool("running", true);
             currentSpeed = runSpeed;
@@ -76,10 +119,42 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("running", false);
             currentSpeed = playerSpeed;
         }
+    }
 
-        //jumping
-        if (jumpInput && isGround) {
+    void checkOnGround()
+    {
+        isGround = controller.isGrounded;
+        if (isGround)
+        {
+            playerVelocity.y = 0f;
+        }
+    }
+
+    void jumpp()
+    {
+        bool isSpaceKey = Jumping.ReadValue<float>() > 0.1f;
+        if (isSpaceKey)
+        {
+            jumpPressed = true;
+            animator.SetBool("jumping", true);
+        }
+        else {
+            animator.SetBool("jumping", false);
+        }
+    } 
+
+    void jump(){
+
+        //Input
+        //jumpPressed = Input.GetButtonDown("Jump");
+        
+        jumpp();
+        checkOnGround();
+
+        if(jumpPressed && isGround)
+        {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -10.0f * gravity);
+            jumpPressed = false;
             animator.SetBool("jumping", true);
         }
         else
@@ -89,7 +164,6 @@ public class PlayerController : MonoBehaviour
 
         playerVelocity.y += gravity * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
-
     }
 
 
