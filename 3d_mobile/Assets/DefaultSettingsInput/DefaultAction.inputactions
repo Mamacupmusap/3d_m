@@ -807,6 +807,33 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Touch",
+            "id": "0dd2e490-6ede-4766-a954-88c4e62f497f",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "78cf3082-e80f-4fc4-a3dc-3de8e2fd3b35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9082a3df-359e-44b1-879e-1dc3883e9bee",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
