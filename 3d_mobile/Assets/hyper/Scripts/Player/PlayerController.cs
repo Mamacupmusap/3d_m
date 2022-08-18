@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour , IDataPersistance
 {
     private CharacterController controller;
 
@@ -33,9 +33,20 @@ public class PlayerController : MonoBehaviour
     //Ani
     private Animator animator;
 
+
     private void Awake()
     {
         playercontrols = new DefaultAction();
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.transform.position = data.playerPos;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.playerPos = this.transform.position;
     }
 
     private void OnEnable()
@@ -94,6 +105,7 @@ public class PlayerController : MonoBehaviour
         //Vector3 move = new Vector3(forwardInput, 0, -horizontalInput);
         Vector3 move = new Vector3(moveDirection.y, 0, -moveDirection.x);
         controller.Move(move * Time.deltaTime * currentSpeed);
+
 
         if (move != Vector3.zero)
         {

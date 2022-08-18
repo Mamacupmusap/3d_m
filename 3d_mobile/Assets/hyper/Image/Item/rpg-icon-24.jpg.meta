@@ -1,0 +1,2304 @@
+fileFormatVersion: 2
+guid: fd27ddbb564b4174d9fcc15d367542b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -40484365935493133
+    second: rpg-icon-24_0
+  - first:
+      213: -9174922529743614555
+    second: rpg-icon-24_1
+  - first:
+      213: -663617267068371890
+    second: rpg-icon-24_2
+  - first:
+      213: -7727763654265344129
+    second: rpg-icon-24_3
+  - first:
+      213: -5814940934217865112
+    second: rpg-icon-24_4
+  - first:
+      213: -5383999660516288505
+    second: rpg-icon-24_5
+  - first:
+      213: 947335232997446111
+    second: rpg-icon-24_6
+  - first:
+      213: -306945472879132670
+    second: rpg-icon-24_7
+  - first:
+      213: -1707704691397860432
+    second: rpg-icon-24_8
+  - first:
+      213: 1355843874932387740
+    second: rpg-icon-24_9
+  - first:
+      213: 418730521093586613
+    second: rpg-icon-24_10
+  - first:
+      213: -5772901747781423207
+    second: rpg-icon-24_11
+  - first:
+      213: 6811521775854479993
+    second: rpg-icon-24_12
+  - first:
+      213: -2568670893771145904
+    second: rpg-icon-24_13
+  - first:
+      213: 7266910758936944218
+    second: rpg-icon-24_14
+  - first:
+      213: 7241639803643798192
+    second: rpg-icon-24_15
+  - first:
+      213: -3859823999064937333
+    second: rpg-icon-24_16
+  - first:
+      213: 2425135545860553494
+    second: rpg-icon-24_17
+  - first:
+      213: -912864549211820018
+    second: rpg-icon-24_18
+  - first:
+      213: -6806814083784591154
+    second: rpg-icon-24_19
+  - first:
+      213: -2203900251155139883
+    second: rpg-icon-24_20
+  - first:
+      213: 7495031496978027392
+    second: rpg-icon-24_21
+  - first:
+      213: 3458944129411876192
+    second: rpg-icon-24_22
+  - first:
+      213: -2964864499742811422
+    second: rpg-icon-24_23
+  - first:
+      213: 7285260907065718612
+    second: rpg-icon-24_24
+  - first:
+      213: 5215340825853783792
+    second: rpg-icon-24_25
+  - first:
+      213: -7637267299075690891
+    second: rpg-icon-24_26
+  - first:
+      213: 7520713511505725000
+    second: rpg-icon-24_27
+  - first:
+      213: -5841678980789853889
+    second: rpg-icon-24_28
+  - first:
+      213: -5254501898193446566
+    second: rpg-icon-24_29
+  - first:
+      213: -3725850512130606194
+    second: rpg-icon-24_30
+  - first:
+      213: 2725130992537584827
+    second: rpg-icon-24_31
+  - first:
+      213: 9143921145433103713
+    second: rpg-icon-24_32
+  - first:
+      213: -4040931954267618189
+    second: rpg-icon-24_33
+  - first:
+      213: -5052880817746245457
+    second: rpg-icon-24_34
+  - first:
+      213: -5992500431645035608
+    second: rpg-icon-24_35
+  - first:
+      213: 7380814633532900099
+    second: rpg-icon-24_36
+  - first:
+      213: -3861518209791975893
+    second: rpg-icon-24_37
+  - first:
+      213: 1872242539913140753
+    second: rpg-icon-24_38
+  - first:
+      213: -7159038453091038764
+    second: rpg-icon-24_39
+  - first:
+      213: 4686555494595337243
+    second: rpg-icon-24_40
+  - first:
+      213: 7433136460006665596
+    second: rpg-icon-24_41
+  - first:
+      213: -8177605249657452284
+    second: rpg-icon-24_42
+  - first:
+      213: -7434392731965192926
+    second: rpg-icon-24_43
+  - first:
+      213: 6191483432798068489
+    second: rpg-icon-24_44
+  - first:
+      213: 6030212356963841646
+    second: rpg-icon-24_45
+  - first:
+      213: -3367980173530651813
+    second: rpg-icon-24_46
+  - first:
+      213: 1824786155449583356
+    second: rpg-icon-24_47
+  - first:
+      213: -1397402729389551586
+    second: rpg-icon-24_48
+  - first:
+      213: 5245364308740977912
+    second: rpg-icon-24_49
+  - first:
+      213: 8878029515237935255
+    second: rpg-icon-24_50
+  - first:
+      213: 2601174912132963362
+    second: rpg-icon-24_51
+  - first:
+      213: -972484459440549838
+    second: rpg-icon-24_52
+  - first:
+      213: 2699786956493091130
+    second: rpg-icon-24_53
+  - first:
+      213: -6036046200171649384
+    second: rpg-icon-24_54
+  - first:
+      213: 2346792598311463323
+    second: rpg-icon-24_55
+  - first:
+      213: 4910856608977331235
+    second: rpg-icon-24_56
+  - first:
+      213: -6554105668977736042
+    second: rpg-icon-24_57
+  - first:
+      213: -7078451708554989688
+    second: rpg-icon-24_58
+  - first:
+      213: -2814317997525686697
+    second: rpg-icon-24_59
+  - first:
+      213: -6140400663685416452
+    second: rpg-icon-24_60
+  - first:
+      213: 909477944346501728
+    second: rpg-icon-24_61
+  - first:
+      213: 2454106600174507641
+    second: rpg-icon-24_62
+  - first:
+      213: 946523801995730012
+    second: rpg-icon-24_63
+  - first:
+      213: 9174122175091196222
+    second: rpg-icon-24_64
+  - first:
+      213: -6601253406256491294
+    second: rpg-icon-24_65
+  - first:
+      213: 2657546829997002203
+    second: rpg-icon-24_66
+  - first:
+      213: 4540842311661804963
+    second: rpg-icon-24_67
+  - first:
+      213: -4469348099741699569
+    second: rpg-icon-24_68
+  - first:
+      213: -1898448456266288627
+    second: rpg-icon-24_69
+  - first:
+      213: -4892312079229467712
+    second: rpg-icon-24_70
+  - first:
+      213: 8995357767416360860
+    second: rpg-icon-24_71
+  - first:
+      213: -930335941044444595
+    second: rpg-icon-24_72
+  - first:
+      213: -1911415968724131668
+    second: rpg-icon-24_73
+  - first:
+      213: -7704165820855034418
+    second: rpg-icon-24_74
+  - first:
+      213: -4459439472084291999
+    second: rpg-icon-24_75
+  - first:
+      213: 2331064515244434848
+    second: rpg-icon-24_76
+  - first:
+      213: -1293823263747432839
+    second: rpg-icon-24_77
+  - first:
+      213: -8998629467239863406
+    second: rpg-icon-24_78
+  - first:
+      213: -8536799853624280651
+    second: rpg-icon-24_79
+  - first:
+      213: 833702698150703630
+    second: rpg-icon-24_80
+  - first:
+      213: 3668541072668750430
+    second: rpg-icon-24_81
+  - first:
+      213: -5370940534994351232
+    second: rpg-icon-24_82
+  - first:
+      213: -4281589246695239538
+    second: rpg-icon-24_83
+  - first:
+      213: 8806800935011751755
+    second: rpg-icon-24_84
+  - first:
+      213: -434739618726357990
+    second: rpg-icon-24_85
+  - first:
+      213: 6625861104522174577
+    second: rpg-icon-24_86
+  - first:
+      213: 1061725630644730912
+    second: rpg-icon-24_87
+  - first:
+      213: 1262698288590948199
+    second: rpg-icon-24_88
+  - first:
+      213: -4137258812009884266
+    second: rpg-icon-24_89
+  - first:
+      213: 2996915258869876759
+    second: rpg-icon-24_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpg-icon-24_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff35750fab207ff0800000000000000
+      internalID: -40484365935493133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 240
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad47ece1902ca080800000000000000
+      internalID: -9174922529743614555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 241
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf2919c9b5ac6f0800000000000000
+      internalID: -663617267068371890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 239
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe65f56e771c490800000000000000
+      internalID: -7727763654265344129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868e01a770e2d4fa0800000000000000
+      internalID: -5814940934217865112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7085a1c95d03845b0800000000000000
+      internalID: -5383999660516288505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1560e006c952d00800000000000000
+      internalID: 947335232997446111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20000abf7b28dbbf0800000000000000
+      internalID: -306945472879132670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_8
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 238
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b366f781a30d48e0800000000000000
+      internalID: -1707704691397860432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 239
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9feb3812dce0d210800000000000000
+      internalID: 1355843874932387740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beb56eb031afc500800000000000000
+      internalID: 418730521093586613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fa140527882efa0800000000000000
+      internalID: -5772901747781423207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 240
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ae4a557f2678e50800000000000000
+      internalID: 6811521775854479993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05db2e77e6f3a5cd0800000000000000
+      internalID: -2568670893771145904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e96e065d049d460800000000000000
+      internalID: 7266910758936944218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a48798097f7460800000000000000
+      internalID: 7241639803643798192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_16
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ce438e5862f6ac0800000000000000
+      internalID: -3859823999064937333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bf0371eefc7a120800000000000000
+      internalID: 2425135545860553494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00be20778ad453f0800000000000000
+      internalID: -912864549211820018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b4e3a7a65981a0800000000000000
+      internalID: -6806814083784591154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2f089f56c2a61e0800000000000000
+      internalID: -2203900251155139883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 204
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0835db5af63b30860800000000000000
+      internalID: 7495031496978027392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 206
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06584830c53a00030800000000000000
+      internalID: 3458944129411876192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 205
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ead9ad227faad6d0800000000000000
+      internalID: -2964864499742811422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 207
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45731bd22327a1560800000000000000
+      internalID: 7285260907065718612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_25
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 208
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe6b9b59dc906840800000000000000
+      internalID: 5215340825853783792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_26
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 205
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ee2effad9f20690800000000000000
+      internalID: -7637267299075690891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84687ce9711fe5860800000000000000
+      internalID: 7520713511505725000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_28
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a722eaef2eeea0800000000000000
+      internalID: -5841678980789853889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a595096fc524417b0800000000000000
+      internalID: -5254501898193446566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b7f3a13be1b4cc0800000000000000
+      internalID: -3725850512130606194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44c98033c91d520800000000000000
+      internalID: 2725130992537584827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d19bfc5dbb5ee70800000000000000
+      internalID: 9143921145433103713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 170
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3748a502cc9bbe7c0800000000000000
+      internalID: -4040931954267618189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 172
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa889d5eaaf80e9b0800000000000000
+      internalID: -5052880817746245457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 172
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a33c676b9c56dca0800000000000000
+      internalID: -5992500431645035608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303cbb0ddcbed6660800000000000000
+      internalID: 7380814633532900099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e95abb5a1296ac0800000000000000
+      internalID: -3861518209791975893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 139
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ad5e4abaa8bf910800000000000000
+      internalID: 1872242539913140753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98526057cf5ac90800000000000000
+      internalID: -7159038453091038764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_40
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c9283546df90140800000000000000
+      internalID: 4686555494595337243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 139
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7da3b95a3ec72760800000000000000
+      internalID: 7433136460006665596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_42
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 138
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4094ccc2a5f438e80800000000000000
+      internalID: -8177605249657452284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_43
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 138
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225087a033bb3d890800000000000000
+      internalID: -7434392731965192926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 140
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f15a4d0619ce550800000000000000
+      internalID: 6191483432798068489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_45
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 139
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e663001703e9fa350800000000000000
+      internalID: 6030212356963841646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_46
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 139
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53a52260e78241d0800000000000000
+      internalID: -3367980173530651813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf68f9a1751f25910800000000000000
+      internalID: 1824786155449583356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_48
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 103
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1013921f9d6b9ce0800000000000000
+      internalID: -1397402729389551586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_49
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 102
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4b4043c074bc840800000000000000
+      internalID: 5245364308740977912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798c0396ec8153b70800000000000000
+      internalID: 8878029515237935255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 102
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cd75c0dca391420800000000000000
+      internalID: 2601174912132963362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 122
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230557d598a0182f0800000000000000
+      internalID: -972484459440549838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_53
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 102
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31f00fcee1977520800000000000000
+      internalID: 2699786956493091130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_54
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 114
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8962ce616f7ab3ca0800000000000000
+      internalID: -6036046200171649384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_55
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 103
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99eedf2f6b719020800000000000000
+      internalID: 2346792598311463323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_56
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 104
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32429f8211ed62440800000000000000
+      internalID: 4910856608977331235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 122
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69645348e932b05a0800000000000000
+      internalID: -6554105668977736042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_58
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 102
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa2df9ca944cd90800000000000000
+      internalID: -7078451708554989688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7562e7031b881f8d0800000000000000
+      internalID: -2814317997525686697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9357e212ae8caa0800000000000000
+      internalID: -6140400663685416452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06263db2f5d1f9c00800000000000000
+      internalID: 909477944346501728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_62
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d75053fcbe0220800000000000000
+      internalID: 2454106600174507641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_63
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c586d026ab22d00800000000000000
+      internalID: 946523801995730012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_64
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31485cf287015f70800000000000000
+      internalID: 9174122175091196222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e49ebf7003a364a0800000000000000
+      internalID: -6601253406256491294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddcfe7f2c081e420800000000000000
+      internalID: 2657546829997002203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 75
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad5aa72600540f30800000000000000
+      internalID: 4540842311661804963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_68
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 34
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f023459359fa9f1c0800000000000000
+      internalID: -4469348099741699569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_69
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 69
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02fbdbff2b57a5e0800000000000000
+      internalID: -1898448456266288627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_70
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 68
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3cc23a5140b1cb0800000000000000
+      internalID: -4892312079229467712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_71
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 68
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f2762ea3ee5dc70800000000000000
+      internalID: 8995357767416360860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4264480468c613f0800000000000000
+      internalID: -930335941044444595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_73
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06036bd494975e0800000000000000
+      internalID: -1911415968724131668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdda3d110e451590800000000000000
+      internalID: -7704165820855034418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_75
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6f016d63ec12c0800000000000000
+      internalID: -4459439472084291999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 34
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5a9ab73da995020800000000000000
+      internalID: 2331064515244434848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 34
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e923ab89a6b0ee0800000000000000
+      internalID: -1293823263747432839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_78
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2ec32d227e1380800000000000000
+      internalID: -8998629467239863406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_79
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 238
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b93e1653c1378980800000000000000
+      internalID: -8536799853624280651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_80
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02be83df28e19b00800000000000000
+      internalID: 833702698150703630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_81
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 59
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52f9583ba649e230800000000000000
+      internalID: 3668541072668750430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b4ae53a069675b0800000000000000
+      internalID: -5370940534994351232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_83
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 34
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e801994d34db494c0800000000000000
+      internalID: -4281589246695239538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_84
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 35
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4714fa3aca083a70800000000000000
+      internalID: 8806800935011751755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_85
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 35
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14d600ce9e77f9f0800000000000000
+      internalID: -434739618726357990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_86
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 40
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1702f1ab199c3fb50800000000000000
+      internalID: 6625861104522174577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_87
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 37
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cb187f5d10cbe00800000000000000
+      internalID: 1061725630644730912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76705f54761068110800000000000000
+      internalID: 1262698288590948199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_89
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695db46d7018596c0800000000000000
+      internalID: -4137258812009884266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg-icon-24_90
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71803e2bc8e279920800000000000000
+      internalID: 2996915258869876759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 31145fc117458e44e880fa4e85c050b6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
