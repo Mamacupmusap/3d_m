@@ -65,6 +65,14 @@ public class @DefaultAction : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Pickup"",
+                    ""type"": ""Button"",
+                    ""id"": ""0ff49850-a3fa-47a7-9e57-2fb42c540f23"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -235,6 +243,17 @@ public class @DefaultAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""5a03e9e7-6e5f-46a1-be96-44db00ddbc56"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Look"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""143bb1cd-cc10-4eca-a2f0-a3664166fe91"",
                     ""path"": ""<Gamepad>/rightTrigger"",
                     ""interactions"": """",
@@ -329,6 +348,17 @@ public class @DefaultAction : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Screenshot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c2941f50-57c2-4f39-9b48-cb89d37a70a6"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Pickup"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -843,29 +873,8 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         {
             ""name"": ""Touch"",
             ""id"": ""0dd2e490-6ede-4766-a954-88c4e62f497f"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""78cf3082-e80f-4fc4-a3dc-3de8e2fd3b35"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""9082a3df-359e-44b1-879e-1dc3883e9bee"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touch"",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
+            ""actions"": [],
+            ""bindings"": []
         }
     ],
     ""controlSchemes"": [
@@ -939,6 +948,7 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         m_Player_Run = m_Player.FindAction("Run", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Screenshot = m_Player.FindAction("Screenshot", throwIfNotFound: true);
+        m_Player_Pickup = m_Player.FindAction("Pickup", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -953,7 +963,6 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
         // Touch
         m_Touch = asset.FindActionMap("Touch", throwIfNotFound: true);
-        m_Touch_Newaction = m_Touch.FindAction("New action", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -1009,6 +1018,7 @@ public class @DefaultAction : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Run;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Screenshot;
+    private readonly InputAction m_Player_Pickup;
     public struct PlayerActions
     {
         private @DefaultAction m_Wrapper;
@@ -1019,6 +1029,7 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         public InputAction @Run => m_Wrapper.m_Player_Run;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Screenshot => m_Wrapper.m_Player_Screenshot;
+        public InputAction @Pickup => m_Wrapper.m_Player_Pickup;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1046,6 +1057,9 @@ public class @DefaultAction : IInputActionCollection, IDisposable
                 @Screenshot.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScreenshot;
                 @Screenshot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScreenshot;
                 @Screenshot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScreenshot;
+                @Pickup.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPickup;
+                @Pickup.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPickup;
+                @Pickup.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPickup;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1068,6 +1082,9 @@ public class @DefaultAction : IInputActionCollection, IDisposable
                 @Screenshot.started += instance.OnScreenshot;
                 @Screenshot.performed += instance.OnScreenshot;
                 @Screenshot.canceled += instance.OnScreenshot;
+                @Pickup.started += instance.OnPickup;
+                @Pickup.performed += instance.OnPickup;
+                @Pickup.canceled += instance.OnPickup;
             }
         }
     }
@@ -1181,12 +1198,10 @@ public class @DefaultAction : IInputActionCollection, IDisposable
     // Touch
     private readonly InputActionMap m_Touch;
     private ITouchActions m_TouchActionsCallbackInterface;
-    private readonly InputAction m_Touch_Newaction;
     public struct TouchActions
     {
         private @DefaultAction m_Wrapper;
         public TouchActions(@DefaultAction wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Touch_Newaction;
         public InputActionMap Get() { return m_Wrapper.m_Touch; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1196,16 +1211,10 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_TouchActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_TouchActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_TouchActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_TouchActionsCallbackInterface.OnNewaction;
             }
             m_Wrapper.m_TouchActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
             }
         }
     }
@@ -1263,6 +1272,7 @@ public class @DefaultAction : IInputActionCollection, IDisposable
         void OnRun(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnScreenshot(InputAction.CallbackContext context);
+        void OnPickup(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
@@ -1279,6 +1289,5 @@ public class @DefaultAction : IInputActionCollection, IDisposable
     }
     public interface ITouchActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
     }
 }

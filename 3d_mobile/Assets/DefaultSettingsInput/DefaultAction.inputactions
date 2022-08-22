@@ -52,6 +52,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Pickup",
+                    "type": "Button",
+                    "id": "0ff49850-a3fa-47a7-9e57-2fb42c540f23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -222,6 +230,17 @@
                 },
                 {
                     "name": "",
+                    "id": "5a03e9e7-6e5f-46a1-be96-44db00ddbc56",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "143bb1cd-cc10-4eca-a2f0-a3664166fe91",
                     "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
@@ -316,6 +335,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Screenshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2941f50-57c2-4f39-9b48-cb89d37a70a6",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Pickup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -830,29 +860,8 @@
         {
             "name": "Touch",
             "id": "0dd2e490-6ede-4766-a954-88c4e62f497f",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "78cf3082-e80f-4fc4-a3dc-3de8e2fd3b35",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "9082a3df-359e-44b1-879e-1dc3883e9bee",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Touch",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
+            "actions": [],
+            "bindings": []
         }
     ],
     "controlSchemes": [
